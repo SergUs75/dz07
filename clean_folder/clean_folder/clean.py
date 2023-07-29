@@ -1,8 +1,6 @@
-
-
 import sys
 from pathlib import Path
-from normalize import normalize
+from .normalize import normalize
 import uuid
 import shutil
 

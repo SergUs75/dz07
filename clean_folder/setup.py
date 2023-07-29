@@ -11,7 +11,7 @@ setup(
     packages=find_namespace_packages(),
     entry_points={
         'console_scripts': [
-            'clean-folder = clean_folder.clean:clean_folder'
+            'clean-folder = clean_folder.clean:main'
         ]
     }
 )
